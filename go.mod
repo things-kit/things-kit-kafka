@@ -7,8 +7,8 @@ toolchain go1.24.4
 require (
 	github.com/segmentio/kafka-go v0.4.47
 	github.com/spf13/viper v1.21.0
-	github.com/things-kit/core v0.0.0
-	github.com/things-kit/things-kit-messaging v0.0.0
+	github.com/things-kit/core v0.1.0
+	github.com/things-kit/things-kit-messaging v0.1.0
 	go.uber.org/fx v1.24.0
 )
 
@@ -31,9 +31,3 @@ require (
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/text v0.28.0 // indirect
 )
-
-// Replace with local paths for development
-// Remove these before publishing
-replace github.com/things-kit/core => ../things-kit
-
-replace github.com/things-kit/things-kit-messaging => ../things-kit-messaging
